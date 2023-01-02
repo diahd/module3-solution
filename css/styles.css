@@ -1,0 +1,42 @@
+body {
+    font-family: "Comic Sans MS", "Comic Sans", 'Times New Roman', Times, sans-serif, serif;
+}
+.navbar{
+    background-color: rgb(160, 160, 160);
+    padding: 0;
+}
+.navbar-brand{
+    font-size: 2em;
+}
+section{
+    background-color: rgb(172, 172, 172);
+}
+.navbar .container-fluid{
+    padding: 0;
+    margin: 0;
+}
+.navbar-toggler{
+    border: black 1px solid;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+.collapse{
+    background-color: white;
+}
+ul li{
+    border: black 2px solid;
+}
+ul li:hover{
+    background-color: rgb(231, 231, 231);
+}
+.nav-item:hover{
+    color: black;
+}
+
+@media (max-width: 767px) {
+    .visible-xs{
+        visibility: visible !important;
+    }
+}
